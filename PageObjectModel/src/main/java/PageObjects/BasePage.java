@@ -79,8 +79,7 @@ public class BasePage {
 	}
 
 	
-	public void setValueToField(WebElement ele, String val) {
-		
+	public void setValueToField(WebElement ele, String val) {		
 			ele.clear();
 			ele.sendKeys(val);
 			reporter.pass("Setting vaule "+val+" To "+ ele);
